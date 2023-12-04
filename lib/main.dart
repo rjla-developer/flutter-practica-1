@@ -12,8 +12,7 @@ void main() {
         ),
         body: const Center(
           child: Image(
-            image: NetworkImage(
-                'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_640.jpg'),
+            image: AssetImage('images/diamond.png')
           ),
         ),
         backgroundColor: Colors.blueGrey,
